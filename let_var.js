@@ -1,11 +1,11 @@
-// difference -> hoisting
+//difference -> hoisting
 
-// var -> global Scoped, function scoped
-// let -> block Scoped
+var -> global Scoped, function scoped
+let -> block Scoped
 
-// printName();
+printName();
 
-// ES6 function -> hoist nhi hote
+ES6 function -> hoist nhi hote
 var printName = () => {
     // var name;  --> scope hoisting
     console.log(name);
@@ -14,11 +14,11 @@ var printName = () => {
 
 printName();
 
-// function printName() {
-//    var name = "Abhishek";
-//    console.log(name);
-// }
+function printName() {
+   var name = "Abhishek";
+   console.log(name);
+}
 
-// console.log(name)
+console.log(name)
 
 
